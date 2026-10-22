@@ -1,0 +1,9 @@
+# 覚え間違い日本語辞典 — クロール許可 + サイトマップの所在
+# 注意: GitHub Pages のプロジェクトサイト (サブパス配信) では、クローラは
+# ホスト直下 https://yakinik.github.io/robots.txt のみを参照する。この
+# サブパスの robots.txt は権威を持たないため、サイトマップは Google Search
+# Console から直接送信すること (これが確実な導線)。
+User-agent: *
+Allow: /
+
+Sitemap: https://yakinik.github.io/oboe-machigai-jiten/sitemap.xml
